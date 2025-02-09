@@ -54,6 +54,7 @@ module "alb" {
   lb_target_group_attachment_port = 8080
 }
 
+/*
 module "hosted_zone" {
   source          = "./hosted-zone"
   domain_name     = "jenkins.jhooq.org"
@@ -66,3 +67,4 @@ module "aws_ceritification_manager" {
   domain_name    = "jenkins.jhooq.org"
   hosted_zone_id = module.hosted_zone.hosted_zone_id
 }
+*/
